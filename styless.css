@@ -1,0 +1,333 @@
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* header */
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:1px solid red;
+
+}
+
+.header .container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-item{
+    margin-left: 55px;
+}
+
+.header-list{
+    display: flex;
+    margin-left: 93px;
+}
+
+.header-color {
+    color: #000000;
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+.header-link:hover {
+    color: #2196F3;
+}
+
+.contakt-list {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+   
+}
+
+.contakt-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 32px;
+    color: #757575;
+
+}
+
+.contakt-link:hover {
+    color: #2196F3;
+}
+
+/* main */
+
+
+/* секція герой */
+.hero-section {
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url(../imeges/img.png);
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+   margin-bottom: 30px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.hero-button {
+    padding: 10px 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+
+
+/* <!--Чому ми --> */
+.attention-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.attention-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.attention-list{
+    display: flex;
+}
+.attention-item::before{
+background-image: url(../imeges/card\ bg.png);
+
+}
+
+.attention-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+
+/* <!-- чим ми займайемося --> */
+.work-title {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.work-img{
+    margin-left: 30px;
+    
+    
+}
+
+.work-list{
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+/* <!-- наша команда --> */
+.team-section{
+    background: #F5F4FA;
+}
+
+
+.team-title {
+    margin-bottom: 50px;
+    margin-top: 188px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.team-item{
+    margin-left: 30px;
+}
+
+
+.team-list{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 464px;
+}
+
+.team-img {
+    background: url(4853.jpg);
+    border-radius: 0px;
+}
+
+.team-name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+}
+
+/* <!--footer --> */
+.footer-logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.section-footer {
+    background: #2F303A;
+}
