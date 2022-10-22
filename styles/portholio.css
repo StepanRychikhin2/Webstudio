@@ -15,60 +15,99 @@ p{
 
 
 /* header */
-.header-logo{
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:1px solid red;
+
 }
-.header-color{
-    color:#000000;
+
+.header .container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-item{
+    margin-left: 55px;
 }
 
 .header-list{
     display: flex;
+    margin-left: 93px;
 }
-.contakt-list{
-    display: flex;
+
+.header-color {
+    color: #000000;
 }
-.button-list{
-    display: flex;
-}
-.header-link{
+
+.header-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
     color: #212121;
-    
+
 }
-.header-link:hover{
+
+.header-link:hover {
     color: #2196F3;
 }
-.contakt-list{
+
+.contakt-list {
     list-style: none;
+    display: flex;
+    margin-left: auto;
+   
 }
-.contakt-link{
+
+.contakt-link {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 32px;
+    color: #757575;
 
 }
-.contakt-link:hover{
+
+.contakt-link:hover {
     color: #2196F3;
 }
 /* main */
+.button-list{
+    display: flex;
+    justify-content: center;
+}
+
+.main-list{
+    gap: 30px;
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.main-item{
+    width: 370px;
+    border: solid green;
+}
 /* <!--footer --> */
 .footer-logo{
     font-family: 'Raleway';

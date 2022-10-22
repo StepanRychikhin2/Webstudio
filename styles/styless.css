@@ -41,7 +41,6 @@ p {
 
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -186,6 +185,17 @@ border-radius: 100%;
 
 }
 
+.modal-color{
+    color: #0000ff;
+   
+}
+
+.modal-text{
+    
+    margin-left: 8px;
+  
+}
+
 .modal-hero{
     font-family: 'Roboto';
 font-style: normal;
@@ -201,6 +211,7 @@ color: #212121;
 }
 
 .modal-label{
+    position: relative;
     margin-top: 20px;
     margin-left: 30px;
   
@@ -208,12 +219,25 @@ color: #212121;
 }
 
 .modal-input{
+  padding-left: 30px;
     width: 370px;
-    padding-top: 10px;
+   height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 
 
+}
+
+.modal-svg{
+    position: absolute;   
+    margin-left: 10px;
+    top: 35px;
+}
+
+.modal-checkbox{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .modal-list{
@@ -257,14 +281,14 @@ border-radius: 4px;
 
 /* <!--Чому ми --> */
 .attention-svg{
-margin-left: 13px;
+
 margin-bottom: 40px;
 padding-top: 30px;
 padding-bottom: 60px;
 padding-left: 10px;
 padding-right: 10px;
-width: 260px;
-height: 90px;
+width: 270px;
+height: 120px;
 left: 90px;
 background: #F5F4FA;
 border-radius: 4px;
@@ -328,12 +352,24 @@ background-image: url(../imeges/card\ bg.png);
 .work-img{
     margin-left: 20px;
     width: 370px;
+   
+}
+
+.work-item{
+    position: relative;
 }
 
 
+.work-text{
+    position: absolute;
+    bottom: 0px;
+    width: 370px;
+height: 70px;
+margin-left: 20px;
 
+background: rgba(47, 48, 58, 0.8);
 
-
+}
 
     
 
@@ -383,8 +419,14 @@ background-image: url(../imeges/card\ bg.png);
 }
 
 .team-item{
+    width: 270px;
     margin-left: 30px;
     background: #FFFFFF;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -395,6 +437,7 @@ background-image: url(../imeges/card\ bg.png);
 }
 
 .team-img {
+    width: 270px;
     background: url(4853.jpg);
     border-radius: 0px;
 }
