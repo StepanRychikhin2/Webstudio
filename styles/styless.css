@@ -87,7 +87,8 @@ margin-right: 10px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
 }
 
 .header-link:hover {
@@ -111,7 +112,8 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     margin-left: 32px;
     color: #757575;
-
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
 }
 
 .contakt-link:hover {
@@ -161,7 +163,8 @@ margin-right: 10px;
     border-radius: 4px;
     color: #FFFFFF;
     border: none;
-
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
 }
 
 .backdrop.is-hidden {
@@ -199,6 +202,8 @@ box-sizing: border-box;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 100%; 
+
+
 
 }
 
@@ -512,11 +517,16 @@ background: rgba(47, 48, 58, 0.8);
     width: 44px;
     height: 44px;
     margin-left: 10px;
+
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+
 }
 
 .social-item:hover{
     
     background-color: #2196F3;
+
 }
 
 .social-item:first-child{
@@ -584,7 +594,12 @@ background: rgba(47, 48, 58, 0.8);
 }
 
 .link-Client{
+
+    color: #AFB1B8;
     margin-left: 20px;
+
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
 }
 
 .link-Client:hover{
