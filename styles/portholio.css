@@ -15,6 +15,29 @@ p{
 
 
 /* header */
+
+
+.contakt-link:hover {
+    color: #2196F3;
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
+    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+}
+
+.header-link:hover {
+    color: #2196F3;
+}
+
 .container{
     width: 1200px;
     margin-left: auto;
@@ -40,48 +63,6 @@ p{
     color: #2196F3;
 }
 
-.header-item{
-    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
-    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
-    margin-left: 55px;
-}
-
-.header-list{
-    display: flex;
-    margin-left: 93px;
-}
-
-.button-item{
-    margin-left: 10px;
-}
-
-.button-item:hover{
-    color: #2196F3;
-    background-color: #2196F3;
-    background: #2196F3;
-}
-
-.header-color {
-    color: #000000;
-}
-
-.header-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-
-    transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
-    background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
-}
-
-.header-link:hover {
-    color: #2196F3;
-}
-
 .contakt-list {
     list-style: none;
     display: flex;
@@ -102,87 +83,27 @@ p{
     background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
 }
 
-.main-section{
-margin-bottom: 94px;
+
+.header-color {
+    color: #000000;
 }
 
-.button-neme{
-    margin-left: 24px;
-    padding-top: 20px;
-    padding-bottom: 4px;
-}
-
-.button-text{
-    margin-left: 24px;
-    padding-bottom: 20px;
-}
-
-
-
-.button{
-    margin-left: 10px;
-}
-
-.dutton:hover{
-    color: #2196F3;
-    background-color: #2196F3;
-    background: #2196F3;
-}
-
-.contakt-link:hover {
-    color: #2196F3;
-}
-/* main */
-.button-list{
-    display: flex;
-    justify-content: center;
-}
-
-.button-section{
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
-
-.main-list{
-    gap: 30px;
-
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-}
-
-.main-item{
-    background-color: #FFFFFF;
-border: 1px solid #EEEEEE;
-
-    width: 370px;
+.header-item{
     transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms,
     background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+    margin-left: 55px;
 }
 
-.main-item:hover,
-.main-item:focus{
-    
-    color: rgb(0, 0, 0);
+.header-list{
+    display: flex;
+    margin-left: 93px;
 }
 
-.main-item::before{
-    content: "Технокрик це сучасний майданчик поширення коронавірусу Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів" ;
-    width: 370px;
-    height: 294px;
-    display: block;
-    background-color: rgba(33, 150, 243, 0.9);
-    margin-right: 6px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 3000ms;
-    transform: translateY(0);
-   
-  }
 
-  .main-item:hover::before{
-    
-    transform: translateY(290px);
-    
-  }
+
+/* main */
+
+
 
 /* <!--footer --> */
 .footer-logo{
