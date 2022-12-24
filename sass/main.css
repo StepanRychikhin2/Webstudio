@@ -54,14 +54,31 @@ body {
   .hero-section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/img.png);
     text-align: center;
+<<<<<<< HEAD
     padding-bottom: 118px;
     padding-top: 118px;
+=======
+    padding-top: 69px;
+    width: 480px;
+    height: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    width: 768px;
+    height: 400px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
+<<<<<<< HEAD
     padding-bottom: 200px;
     padding-top: 200px;
+=======
+    width: 1290px;
+    height: 600px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   }
 }
 
@@ -205,9 +222,12 @@ body {
 
 /* header */
 .contakt-svg {
+<<<<<<< HEAD
   width: 10px;
   height: 16px;
   fill: currentColor;
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   margin-right: 10px;
 }
 
@@ -217,7 +237,11 @@ body {
 
 .header .container {
   display: flex;
+<<<<<<< HEAD
   height: 80px;
+=======
+  height: 50px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   align-items: center;
 }
 @media screen and (min-width: 480px) {
@@ -261,9 +285,12 @@ body {
     display: block;
   }
 }
+<<<<<<< HEAD
 .header .container .contakt-list {
   display: flex;
 }
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 
 .header-colorr {
   color: #212121;
@@ -364,15 +391,27 @@ body {
   padding-bottom: 94px;
 }
 @media screen and (min-width: 480px) {
+<<<<<<< HEAD
   .attention-section .attention-item {
     width: 270px;
   }
   .attention-section .attention-item::before {
+=======
+  .attention-section .attention-item::before {
+    margin-left: 2px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
     width: 450px;
   }
   .attention-section .attention-list {
     display: block;
+<<<<<<< HEAD
     gap: 30px;
+=======
+    margin-left: 50px;
+  }
+  .attention-section .attention-list .attention-text {
+    width: 450px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   }
 }
 @media screen and (min-width: 768px) {
@@ -380,6 +419,7 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
   .attention-section .attention-section {
     width: 300px;
   }
@@ -390,12 +430,22 @@ body {
     margin-left: 2px;
     width: 270px;
     height: 120px;
+=======
+}
+@media screen and (min-width: 1200px) {
+  .attention-section {
+    padding-bottom: 200px;
+    padding-top: 200px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   }
 }
 
 .attention-list {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 .attention-item::before {
@@ -439,12 +489,15 @@ body {
   display: flex;
 }
 
+<<<<<<< HEAD
 .Client-svg {
   fill: currentColor;
   width: 106px;
   height: 60px;
 }
 
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 .section-Client {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -461,8 +514,11 @@ body {
     color: #212121;
   }
   .section-Client .link-Client {
+<<<<<<< HEAD
     width: 170px;
     height: 92px;
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
     flex-wrap: wrap;
   }
   .section-Client .link-ul {
@@ -470,12 +526,17 @@ body {
     flex-wrap: wrap;
   }
 }
+<<<<<<< HEAD
 @media screen and (min-width: 480px) and (min-width: 768px) {
+=======
+@media screen and (min-width: 768px) {
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   .section-Client .link-ul {
     display: flex;
     flex-wrap: wrap;
   }
 }
+<<<<<<< HEAD
 @media screen and (min-width: 480px) {
   .section-Client .ligo-Client {
     text-align: center;
@@ -500,6 +561,25 @@ body {
     color: #2196F3;
     border-color: #2196F3;
   }
+=======
+.ligo-Client {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.link-Client {
+  border: 2px solid #AFB1B8;
+  border-radius: 4px;
+  color: #AFB1B8;
+  margin-left: 20px;
+  color: #AFB1B8;
+  transition: color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 30ms, background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67) 50ms;
+}
+
+.link-Client:hover {
+  fill: rgb(127, 178, 255);
+  border-color: #2196F3;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 /* <!--footer --> */
@@ -516,6 +596,15 @@ body {
   color: #2196F3;
 }
 
+<<<<<<< HEAD
+=======
+.footer-div {
+  margin-top: 60px;
+  margin-right: 250px;
+  border: 1px solid #0037ff;
+}
+
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 .div-button {
   width: 200px;
   height: 50px;
@@ -526,8 +615,13 @@ body {
 .footer-comit {
   background-color: #2F303A;
   color: #2F303A;
+<<<<<<< HEAD
   width: 358px;
   height: 50px;
+=======
+  width: 400px;
+  height: 34px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 .footer-p {
@@ -581,7 +675,12 @@ footer .container {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+<<<<<<< HEAD
   font-style: normal;
+=======
+  /* or 171% */
+  letter-spacing: 0.03em;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   color: #FFFFFF;
 }
 
@@ -589,20 +688,28 @@ footer .container {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+<<<<<<< HEAD
+=======
+  /* or 171% */
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+<<<<<<< HEAD
 .footer-from {
   display: flex;
   flex-wrap: wrap;
 }
 
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 .section-footer {
   display: flex;
   background: #2F303A;
 }
 @media screen and (min-width: 480px) {
+<<<<<<< HEAD
   .section-footer .div-button {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -614,6 +721,8 @@ footer .container {
     letter-spacing: 0.06em;
     color: #FFFFFF;
   }
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   .section-footer .footer-logo {
     font-family: "Raleway";
     font-weight: 700;
@@ -645,6 +754,7 @@ footer .container {
     justify-content: center;
     display: block;
   }
+<<<<<<< HEAD
 }
 @media screen and (min-width: 768px) {
   .section-footer .comit-svg {
@@ -699,6 +809,30 @@ footer .container {
 
 .social-item:hover .team-svg {
   fill: #FFFFFF;
+=======
+  .section-footer .footer-div {
+    display: block;
+  }
+  .section-footer .container {
+    display: block;
+  }
+  .section-footer .footer-div {
+    display: block;
+  }
+}
+/* <!-- наша команда --> */
+.team-svg {
+  fill: #AFB1B8;
+  height: 20px;
+  width: 20px;
+}
+
+.team-svg:hover {
+  fill: rgb(127, 178, 255);
+  background-color: #2196F3;
+  width: 20px;
+  border-radius: 100%;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 .team-section {
@@ -706,6 +840,7 @@ footer .container {
   padding-top: 94px;
   background-color: #F5F4FA;
 }
+<<<<<<< HEAD
 .team-section .team-title {
   text-align: center;
 }
@@ -722,12 +857,36 @@ footer .container {
 .team-section .team-img {
   width: 450px;
   height: 460px;
+=======
+@media screen and (min-width: 480px) {
+  .team-section .team-title {
+    text-align: center;
+  }
+  .team-section .team-list {
+    display: block;
+    margin-left: 5px;
+  }
+  .team-section .team-item {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 450px;
+    height: 622px;
+  }
+  .team-section .team-img {
+    width: 450px;
+    height: 460px;
+  }
+  .team-section .social-list {
+    justify-content: center;
+  }
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 @media screen and (min-width: 768px) {
   .team-section .team-list {
     display: flex;
     flex-wrap: wrap;
   }
+<<<<<<< HEAD
   .team-section .team-img {
     width: 270px;
     height: 260px;
@@ -736,6 +895,8 @@ footer .container {
     width: 270px;
     margin-left: 30px;
   }
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 .team-title {
@@ -829,8 +990,13 @@ footer .container {
 }
 
 .work-section {
+<<<<<<< HEAD
   display: none;
   padding-bottom: 94px;
+=======
+  padding-bottom: 94px;
+  display: none;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 @media screen and (min-width: 480px) {
   .work-section .attention-text {
@@ -838,19 +1004,27 @@ footer .container {
   }
 }
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
   .work-section .attention-list {
     width: 768px;
+=======
+  .work-section {
+    display: block;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
   }
   .work-section .work-list {
     display: flex;
     flex-wrap: wrap;
   }
 }
+<<<<<<< HEAD
 @media screen and (min-width: 1200px) {
   .work-section {
     display: block;
   }
 }
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 
 .work-img {
   width: 370px;

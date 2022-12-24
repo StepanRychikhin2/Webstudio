@@ -16,7 +16,16 @@
 }
 
 
+<<<<<<< HEAD
 
+=======
+.footer-div {
+
+    margin-top: 60px;
+    margin-right: 250px;
+    border: 1px solid #0037ff;
+}
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 
 .div-button {
     width: 200px;
@@ -31,8 +40,13 @@
 
     background-color: #2F303A;
     color: #2F303A;
+<<<<<<< HEAD
     width: 358px;
     height: 50px;
+=======
+    width: 400px;
+    height: 34px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }
 
 .footer-p {
@@ -83,11 +97,16 @@ footer .container {
 .footer-li:hover {
     fill: rgb(127, 178, 255);
     background-color: #2196F3;
+<<<<<<< HEAD
+=======
+    ;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
     width: 20px;
     border-radius: 100%;
 }
 
 .address {
+<<<<<<< HEAD
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -109,10 +128,38 @@ footer .container {
 }
 
 
+=======
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
+.footer-link {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 .section-footer {
     display: flex;
     background: #2F303A;
 
+<<<<<<< HEAD
     @media screen and(min-width:480px) {
 
         .div-button {
@@ -127,6 +174,10 @@ footer .container {
             color: #FFFFFF;
         }
 
+=======
+
+    @media screen and(min-width:480px) {
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
         .footer-logo {
             font-family: 'Raleway';
             font-weight: 700;
@@ -165,6 +216,7 @@ footer .container {
             display: block;
         }
 
+<<<<<<< HEAD
       
 
 
@@ -228,4 +280,22 @@ footer .container {
     }
 
 
+=======
+        .footer-div {
+            display: block;
+        }
+
+        .container {
+            display: block;
+        }
+
+        .footer-div {
+            display: block;
+        }
+    }
+
+    @media screen and(min-width:768px) {}
+
+    @media screen and(min-width:1200px) {}
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 }

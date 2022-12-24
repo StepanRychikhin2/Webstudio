@@ -1,24 +1,41 @@
 /* <!-- наша команда --> */
 .team-svg{
     fill: #AFB1B8;
+<<<<<<< HEAD
     
+=======
+    height: 20px;
+     width: 20px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
    
  }
  
  
  
+<<<<<<< HEAD
  .social-item:hover .team-svg{
      fill: #FFFFFF;
     
 
+=======
+ .team-svg:hover{
+     fill: rgb(127, 178, 255);
+     background-color: #2196F3;;
+    width: 20px;
+     border-radius: 100%; 
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
  }
  .team-section{
      padding-bottom: 94px;
      padding-top: 94px;
      background-color: #F5F4FA;
 
+<<<<<<< HEAD
 
     
+=======
+     @media screen and(min-width:480px) {
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
           
         .team-title{
             text-align: center;
@@ -30,22 +47,37 @@
         }
         .team-item{
             margin-left: 0px;
+<<<<<<< HEAD
             width: 450px;
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
+=======
+            margin-top: 30px;
+            width: 450px;
+            height: 622px;
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
         }
         .team-img{
             width: 450px;
             height: 460px;
         }
 
+<<<<<<< HEAD
        
+=======
+        .social-list{
+            justify-content: center;
+        }
+       
+    }
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
 
     @media screen and(min-width:768px) {
         .team-list{
             display: flex;
            flex-wrap: wrap;
         }
+<<<<<<< HEAD
 
         .team-img{
             width: 270px;
@@ -56,6 +88,8 @@
             width: 270px;
             margin-left: 30px;
         }
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
     }
 
     

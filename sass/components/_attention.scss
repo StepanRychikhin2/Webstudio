@@ -39,26 +39,36 @@
 
         @media screen and(min-width:480px) {
 
+
 .attention-item{
     width: 270px;
 }
 
 
+
             .attention-item::before{
+                margin-left: 2px;
+
                 width: 450px;
             }
 
         .attention-list{
          display: block;
 
+
         gap:30px;
          
+
+         margin-left: 50px;
+         .attention-text{
+            width: 450px;
+         }
+
         }
         
         }
     
-        @media screen and(min-width:768px) {
-           
+        @media screen and(min-width:768px) {         
 .attention-section{
     width: 300px;
 }
@@ -79,11 +89,24 @@
         }
     
        
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        @media screen and(min-width:1200px) {
+            padding-bottom: 200px;
+            padding-top: 200px;
+        }
+
     }
     
     .attention-list{
         display: flex;
+<<<<<<< HEAD
         justify-content: center;
+=======
+>>>>>>> 01192f8d6ccc54d698bc10ed045bfd55c032cea7
     }
     .attention-item::before{
      background-color:    #F5F4FA;;
